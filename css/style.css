@@ -1,0 +1,174 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 99%;
+    margin: auto;
+}
+
+.dis-flex{
+    display: flex;
+}
+
+.nodeco{
+    text-decoration: none;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.full{
+    width: 100%;
+}
+
+.nolist{
+    list-style: none;
+}
+
+header{
+    padding: 35px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+header .heading .logo img{
+    width: 200px;
+}
+
+header .heading .bat button{
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 22px 20px;
+}
+
+header .heading .bat button span{
+    color:#B2B2C3;
+}
+
+header .heading .bat button a{
+    color:black;
+    font-size: 15px;
+}
+.mini{
+    position: relative;
+}
+
+.mini .sol{
+    position: absolute;
+    top:150px;
+}
+
+.mini .pause{
+    position: absolute;
+    right:20px;
+
+}
+.mini .sag{
+    position: absolute;
+    right: 0;
+    top:0;
+    width:430px;
+}
+
+.mini .sag img{
+    height:90vh;
+}
+
+header .heading .bat button i{
+    margin-right: 5px;
+    color:#2874FF;
+    font-size: 20px;
+}
+
+header .heading ul li{
+    margin-right: 50px;
+    font-size: 12px;
+}
+
+header .heading ul{
+    margin-right: 90px;
+}
+
+header .heading ul li a{
+    color: #7C86AD;
+}
+
+.mini .sag img{
+    border-bottom-left-radius: 55%;
+    border-bottom-right-radius: 55%;
+}
+
+.mini .sol{
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+.mini .sol h6{
+    color: #5386FF;
+    font-size: 15px;
+}
+
+.mini .sol h2{
+    color:#171151;
+    font-size: 50px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.mini .sol p{
+    color:#A8A7BD;
+    width: 520px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.blu, .gre{
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.blu{
+    background-color: #2974FF;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 7px;
+}
+
+.gre{
+    background-color: #13D9A8;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 7px;
+    margin-left: 30px;
+}
+
+.mini .pause i{
+    color:white;
+    font-size: 17px;
+}
+
+.mini .pause button{
+    position: absolute;
+    padding: 40px 45px;
+    background-color: #13D9A8;
+    border:none;
+    border-radius: 100%;
+    right:40px;
+    top:500px;
+    border: 4px solid white;
+}
+
+
+
